@@ -1,0 +1,45 @@
+html{
+    background-color: gray;
+}
+body{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    background-color: orange;
+    padding-top: 30vh;
+    
+}
+
+#interface{
+    background-color: bisque;
+    height:400px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+hr{width:90%;}
+
+#add-them{
+    height: 50px;
+    color: cadetblue;
+    background-color: cyan;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h1, p{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    height: 20px;
+    width: 50px;
+}
+
+p{
+    color: green;
+}

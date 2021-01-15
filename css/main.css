@@ -7,7 +7,6 @@ body{
     margin: 0 auto;
     font-size: 1.5em;
     background-color: orange;
-    padding-top: 30vh;
     
 }
 
@@ -42,4 +41,27 @@ input{
 
 p{
     color: green;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 20px;
+    padding-bottom: 10px;
+
+}
+.home, nav ul li:hover{
+        border-bottom: 3px solid blue; 
+    
+}
+
+nav ul li a{
+    color: chartreuse;
+    text-decoration: none;
+    text-transform: uppercase;
+ 
 }
